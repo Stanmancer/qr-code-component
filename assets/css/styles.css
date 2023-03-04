@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url(../fonts/Outfit-VariableFont_wght.ttf) format(truetype);
+}
+
+body {
+    height: 100vh;
+    background-color: #d6e2f0;
+    display: flex;
+    font-family: 'outfit';
+}
+
+a {
+    text-decoration: none;
+    color: #556fff;
+}
+
+main {
+    background-color: #fff;
+    margin: auto;
+    width: 320px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.qr-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.head-text,
+.sub-text {
+    padding: 0 5px;
+}
+
+.head-text {
+    color: #1f3251;
+}
+
+.sub-text {
+    font-size: 15px;
+    color: #7b879d;
+}
+
+.attribution {
+    font-size: 11px;
+    color: #7b879d;
+}
