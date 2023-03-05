@@ -10,21 +10,16 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #d6e2f0;
     display: flex;
-    font-family: 'outfit';
-}
-
-a {
-    text-decoration: none;
-    color: #556fff;
+    font-family: 'outfit', sans-serif;
 }
 
 main {
     background-color: #fff;
     margin: auto;
-    width: 320px;
+    width: 300px;
     padding: 15px;
     border-radius: 15px;
     display: flex;
@@ -34,9 +29,29 @@ main {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #556fff;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.qr-img {
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
 .qr-img img {
     width: 100%;
     border-radius: 10px;
+}
+
+img:hover {
+    transition: all ease-in 0.5s;
+    transform: scale(125%);
 }
 
 .head-text,

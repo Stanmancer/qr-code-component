@@ -25,8 +25,9 @@ realistic projects.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://your-solution-url.com)
+- Live Site URL:
+  [live site URL](https://stanmancer.github.io/qr-code-component/)
 
 ## My process
 
@@ -52,7 +53,7 @@ realistic projects.
 
 ### Continued development
 
-- I want to get more accustumed to making responsive pages
+- I want to improve my use of transitions and making responsive pages
 - I still want to learn more on using custom fonts, using fonts without having
   to download them.
 
